@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./apps/staging
+  path: ./apps/staging/linkding
   prune: true
   sourceRef:
     kind: GitRepository
